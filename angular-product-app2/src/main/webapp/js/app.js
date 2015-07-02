@@ -8,8 +8,9 @@
 
         $scope.products = [];
         $scope.reloadData = function() {
-            $http.get("https://localhost:8443/unika/usuarios").success(function(data) {
+        	$http.get("/database/products").success(function(data) {
                 $scope.products = angular.fromJson(data);
+
             });
         };
 
