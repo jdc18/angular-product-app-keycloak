@@ -2,7 +2,7 @@ Angular Product App2 for Keycloak
 ========================
 Author: Juan Diego Calle
 Level: Intermediate
-Technologies: AngularJS JAX-RS
+Technologies: AngularJS 
 
 What is it?
 -----------
