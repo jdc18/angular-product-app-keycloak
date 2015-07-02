@@ -1,0 +1,21 @@
+{
+  "name": "unika",
+  "version": "0.0.0",
+  "authors": [
+    "Juan Diego"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.1",
+    "keycloak": "~1.3.1"
+  }
+}

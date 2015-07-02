@@ -1,0 +1,19 @@
+<h2>My Products</h2>
+<a href="" ng-click="logout()" ng-show="loggedIn">Sign Out</a>
+<a href="" ng-click="login()" ng-hide="loggedIn" >Log In</a>
+<br/>
+<button type="submit" ng-click="reloadData()" ng-show="loggedIn">Reload</button>
+<div ng-show="loggedIn">
+    <table class="table" ng-show="products.length > 0" >
+        <thead>
+        <tr>
+            <th>Product Listing</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="p in products">
+            <td>{{p}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
