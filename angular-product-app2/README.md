@@ -1,4 +1,4 @@
-angular-product-app2: Assortment of technologies including Arquillian
+Angular Product App2 for Keycloak
 ========================
 Author: Juan Diego Calle
 Level: Intermediate
