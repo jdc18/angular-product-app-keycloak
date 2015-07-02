@@ -3,12 +3,14 @@ angular-product-app2: Assortment of technologies including Arquillian
 Author: Juan Diego Calle
 Level: Intermediate
 Technologies: AngularJS JAX-RS
-Summary: Another app
+Summary: Another app 
 
 What is it?
 -----------
 
-This is your project! It is a sample, deployable Maven 3 project, but you really dont need maven
+This is your project! It is a sample, deployable Maven 3 project, but you really dont need maven.  It is based on Angular Product App from keycloak
+https://github.com/keycloak/keycloak/tree/master/examples/demo-template
+You ll need the the database-service example
 
 System requirements
 -------------------
