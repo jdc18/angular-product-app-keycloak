@@ -3,14 +3,13 @@ Angular Product App2 for Keycloak
 Author: Juan Diego Calle
 Level: Intermediate
 Technologies: AngularJS JAX-RS
-Summary: Another app 
 
 What is it?
 -----------
 
-This is your project! It is a sample, deployable Maven 3 project, but you really dont need maven.  It is based on Angular Product App from keycloak
+It is a sample, deployable Maven 3 project, but you really dont need maven.  It is based on Angular Product App from keycloak.
 https://github.com/keycloak/keycloak/tree/master/examples/demo-template
-You ll need the the database-service example
+You'll need the the database-service example from the demo-template from Keycloak.
 
 System requirements
 -------------------
