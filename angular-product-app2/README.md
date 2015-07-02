@@ -21,8 +21,8 @@ A server running JBoss/Wildfly running Keycloak's Database-service to request th
 Configure Keycloak
 ----------------------------
 
-On the keycloak server create a realm and add Public Client (Acces Type Public), with the proper Valid Redirect URIs, and Web Origins
-Copy the proper keycloak.json file to usr/main/web/app
+On the keycloak server create a realm and add Public Client (Acces Type Public) with the proper Valid Redirect URIs and Web Origins.
+Copy the proper keycloak.json file to usr/main/web/app.
 
 Install Angular Dependencies
 ----------------------------
