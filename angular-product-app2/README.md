@@ -69,6 +69,13 @@ Access the application
 The application will be running at the following URL: <http://localhost:8080/angular-product-app2/>.
 
 
+Problems on reload / Unclean Url
+--------------------
+If you get a problem with you url something like http://localhost/?code=xxxxxxxxxx&state=yyyyy, just turn on the html5 mode
+On the example just oncomment the $locationProvider.html5Mode(true); on app.js, be sure to have a <base> tag pointed to the proper root
+There is an .htaccess already on the project ready for this.  You should run this example from an apache server or nginx or figure out a way to run html5mode from a jboss. Cheers.
+
+
 Undeploy the Archive
 --------------------
 Only if you are running on JBoss/Wildfly

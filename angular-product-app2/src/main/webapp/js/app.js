@@ -91,7 +91,7 @@
         };
     });
 
-    app.config(function($httpProvider, $routeProvider, keycloakLauncherProvider) {
+    app.config(function($httpProvider, $routeProvider, keycloakLauncherProvider,$locationProvider) {
         keycloakLauncherProvider.keycloak = new Keycloak('keycloak.json');
         auth.logoutUrl = keycloakAuth.authServerUrl + "/realms/demo/tokens/logout?redirect_uri=/angular-product-app2/index.html";
         $httpProvider.interceptors.push('errorInterceptor');
@@ -106,6 +106,8 @@
                     }]
                 }
             });
+        // This is needed to fix the url get params problem
+        //$locationProvider.html5Mode(true);
     });
 
 
